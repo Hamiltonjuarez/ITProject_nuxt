@@ -40,6 +40,16 @@
                     >Formulario curso</span
                   ></NuxtLink
                 >
+                <NuxtLink :to="`/courses/${user.name}`">
+                  <span class="font-medium text-blue-300 hover:underline ml-3"
+                    >show</span
+                  ></NuxtLink
+                >
+                <NuxtLink :to="`/courses/edit`">
+                  <span class="font-medium text-blue-300 hover:underline ml-3"
+                    >edit</span
+                  ></NuxtLink
+                >
               </td>
             </tr>
           </tbody>

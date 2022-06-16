@@ -1,6 +1,8 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
+    ssr: false, // Disable Server Side rendering
+
     title: 'ITProject41_nuxt_demo',
     htmlAttrs: {
       lang: 'en'
@@ -31,6 +33,8 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/axios',
+    '@nuxtjs/auth-next'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
