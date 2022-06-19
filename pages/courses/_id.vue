@@ -6,6 +6,7 @@
         <GeneralBackButton/>
     </div>
 </template>
+
 <script>
 export default {
     
